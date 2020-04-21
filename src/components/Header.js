@@ -7,7 +7,7 @@ const Header = () => (
         <div className="content-container">
             <div className="header__content">
                 <div className="header__title">
-                    <h1>My Fitness</h1>
+                    <h1>Fitness Planner</h1>
                 </div>
             </div>
         </div>
