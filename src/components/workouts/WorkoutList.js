@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import Workout from './Workout';
-import WorkoutsContext from '../context/workouts-context';
+import {WorkoutsContext} from '../../context/workouts-context';
 
 
 
@@ -13,7 +13,7 @@ const WorkoutList = () => {
     return (
         <>
             {workouts.map(workout => (
-                <Workout workout={workout} />
+                <Workout  key = {workout.name} workout={workout} />
             ))}
 
         </>

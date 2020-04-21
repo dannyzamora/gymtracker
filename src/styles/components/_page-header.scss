@@ -1,0 +1,14 @@
+.page-header {
+  background:lighten($light-grey,25%);
+  margin-bottom: $l-size;
+  padding: $l-size 0;
+}
+
+
+
+.page-header__title {
+  color: $dark-grey;
+  font-weight: 500;
+  margin: 0;
+  
+}

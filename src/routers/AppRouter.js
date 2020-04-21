@@ -1,42 +1,38 @@
-import React from "react";
-import {
-    BrowserRouter,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
-import Header from '../components/Header';
+import React, { useReducer,useEffect } from 'react';
+import {BrowserRouter,Switch,Route} from "react-router-dom";
 import NotFound from '../components/NotFound';
-import WorkoutPage from '../components/WorkoutPage';
+import WorkoutPage from '../components/workouts/WorkoutPage'
 import Dashboard from '../components/Dashboard';
+import {withHeader} from './withHOC';
+import ContextRoute from './ContextRoute';
+import {WorkoutsContext} from '../context/workouts-context';
+import workoutsReducer from '../reducers/workouts';
+import json from '../api/workouts.json';
+const AppRouter = () => {
+    
+    const [workouts, dispatch] = useReducer(workoutsReducer, [])
+    useEffect(()=>{
+        
+        dispatch({type:'POPULATE_WORKOUTS',workouts:json})
+    },[])
 
-const withHeader = (PassedComponent) => {
-    return () => (
-        <>
-            <Header />
-            <PassedComponent />
+    return (
 
-        </>
+
+        <BrowserRouter>
+            <Switch>
+
+                <ContextRoute path='/' exact={true} component={withHeader(Dashboard)} value = {{workouts,dispatch}} contextComponent={WorkoutsContext}  />
+                <ContextRoute path='/WorkoutList' component={withHeader(WorkoutPage)} value = {{workouts,dispatch}} contextComponent={WorkoutsContext}  />
+                <Route component={NotFound} />
+
+            </Switch>
+
+        </BrowserRouter>
+
+
     )
-}
-class AppRouter extends React.Component {
-    render() {
-        return (
 
-            <BrowserRouter>
-                <Switch>
-
-                    <Route path='/' exact={true} component={withHeader(Dashboard)} />
-                    <Route path='/WorkoutList' exact={true} component={withHeader(WorkoutPage)} />
-                    <Route component={NotFound} />
-
-                </Switch>
-
-            </BrowserRouter>
-
-
-        )
-    }
 
 
 };

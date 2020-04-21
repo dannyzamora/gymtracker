@@ -1,0 +1,36 @@
+.search__input{
+    background: lighten($dark-blue, 15%);
+    border: none;
+    border-bottom: .3rem solid darken($dark-blue, 10%);;
+
+    color: $off-white;
+    flex-grow:1;
+    
+    padding: $s-size;
+}
+
+.search-item{
+    border: .3rem solid darken($dark-blue, 10%);
+    &:not(:last-child){
+        border-bottom: none;
+    }
+    
+    &:hover{
+        cursor: pointer;
+    }
+
+}
+
+.search__form{
+    
+    display: inline-flex;
+    width: 100%;
+   // align-items: center; 
+
+}
+.search-results{
+
+    background:lighten($dark-blue, 15%); 
+    max-width: 37rem;
+    
+}

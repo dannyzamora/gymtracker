@@ -1,0 +1,33 @@
+
+.ReactModal__Overlay{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+ .ReactModal__Overlay--before-close{
+    opacity: 0;
+    
+}
+
+.modal{
+    background: $dark-blue;
+    color: white;
+    min-height: 39rem;
+    min-width: 50rem;
+    max-width: 55rem;
+    outline: none;
+    padding: $l-size;
+    position: relative;
+    text-align: center;
+    @media (max-width: $desktop-breakpoint) {
+        min-width: 35rem;
+
+      }
+}
+

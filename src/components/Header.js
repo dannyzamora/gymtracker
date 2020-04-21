@@ -1,13 +1,18 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
-const Header = () =>(
-    <>
-        <h1>Gym Tracker</h1>
-        <NavLink to='/'>Home</NavLink>
-        <NavLink to='/WorkoutList'>Workouts</NavLink>
-    </>
+const Header = () => (
+    <header className="header">
+        <div className="content-container">
+            <div className="header__content">
+                <div className="header__title">
+                    <h1>My Fitness</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
 )
 
-export {Header as default};
+export { Header as default };

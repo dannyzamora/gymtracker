@@ -1,0 +1,322 @@
+[
+    {
+        "name": "Cable Hip Abduction",
+        "muscle": "abductors"
+    },
+    {
+        "name": "Hip Abduction Machine",
+        "muscle": "abductors"
+    },
+    {
+        "name": "Twisting Floor Crunch",
+        "muscle": "abs"
+    },
+    {
+        "name": "Lying Alternate Floor Leg Raise",
+        "muscle": "abs"
+    },
+    {
+        "name": "Lying Alternate Heel Touches",
+        "muscle": "abs"
+    },
+    {
+        "name": "Straight Leg Toe Touch (Floor Toe Reach)",
+        "muscle": "abs"
+    },
+    {
+        "name": "Weighted Chair Knee Raise",
+        "muscle": "abs"
+    },
+    {
+        "name": "Alternating Lateral Lunge with Overhead Reach",
+        "muscle": "adductors"
+    },
+    {
+        "name": "Lateral Kneeling Adductor Mobilization",
+        "muscle": "adductors"
+    },
+    {
+        "name": "Rocking Frog Stretch",
+        "muscle": "adductors"
+    },
+    {
+        "name": "Adductor Foam Rolling",
+        "muscle": "adductors"
+    },
+    {
+        "name": "Deep Squat Prying",
+        "muscle": "adductors"
+    },
+    {
+        "name": "Standing Dumbbell Reverse Curl",
+        "muscle": "biceps"
+    },
+    {
+        "name": "Cable Preacher Curl",
+        "muscle": "biceps"
+    },
+    {
+        "name": "Barbell Drag Curl",
+        "muscle": "biceps"
+    },
+    {
+        "name": "Dumbbell Preacher Curl",
+        "muscle": "biceps"
+    },
+    {
+        "name": "Zottman Curl",
+        "muscle": "biceps"
+    },
+    {
+        "name": "Standing Barbell Calf Raise",
+        "muscle": "calves"
+    },
+    {
+        "name": "45 Degree Leg Press Calf Raise",
+        "muscle": "calves"
+    },
+    {
+        "name": "Bodyweight Standing Calf Raise",
+        "muscle": "calves"
+    },
+    {
+        "name": "Donkey Calf Raise",
+        "muscle": "calves"
+    },
+    {
+        "name": "Floor Calf Raise",
+        "muscle": "calves"
+    },
+    {
+        "name": "Decline Cable Flys",
+        "muscle": "chest"
+    },
+    {
+        "name": "Bench Press",
+        "muscle": "chest"
+    },
+    {
+        "name": "Stretch Push Up (On Risers)",
+        "muscle": "chest"
+    },
+    {
+        "name": "Reverse Grip Bench Press",
+        "muscle": "chest"
+    },
+    {
+        "name": "Neutral Grip Dumbbell Bench Press",
+        "muscle": "chest"
+    },
+    {
+        "name": "Flat Bench Cable Flys",
+        "muscle": "chest"
+    },
+    {
+        "name": "Seated Reverse Barbell Wrist Curl",
+        "muscle": "forearms"
+    },
+    {
+        "name": "One Arm Seated Reverse Dumbbell Wrist Curl",
+        "muscle": "forearms"
+    },
+    {
+        "name": "Weight Plate Pinches",
+        "muscle": "forearms"
+    },
+    {
+        "name": "Standing Cable Wrist Curl (behind back)",
+        "muscle": "forearms"
+    },
+    {
+        "name": "One Arm Reverse Dumbbell Wrist Curl Over Bench",
+        "muscle": "forearms"
+    },
+    {
+        "name": "Seated Good Mornings",
+        "muscle": "glutes"
+    },
+    {
+        "name": "Glute Kick Back",
+        "muscle": "glutes"
+    },
+    {
+        "name": "Standing Glute Kickback",
+        "muscle": "glutes"
+    },
+    {
+        "name": "Bodyweight Glute Bridge",
+        "muscle": "glutes"
+    },
+    {
+        "name": "Figure 4 Glute Stretch",
+        "muscle": "glutes"
+    },
+    {
+        "name": "Reverse hack Squat",
+        "muscle": "hamstrings"
+    },
+    {
+        "name": "Sumo Deadlift",
+        "muscle": "hamstrings"
+    },
+    {
+        "name": "Deadlift",
+        "muscle": "back"
+    },
+    {
+        "name": "Conventional Block Pull Deadlift",
+        "muscle": "hamstrings"
+    },
+    {
+        "name": "Kickstand Kettle Bell 1 Leg Deadlift",
+        "muscle": "hamstrings"
+    },
+    {
+        "name": "1 Kettlebell Single Leg Deadlift",
+        "muscle": "hamstrings"
+    },
+    {
+        "name": "Behind Neck Lat Pull Down",
+        "muscle": "lats"
+    },
+    {
+        "name": "V-Bar Pull Up",
+        "muscle": "lats"
+    },
+    {
+        "name": "Rope Lat Pull Down",
+        "muscle": "lats"
+    },
+    {
+        "name": "Reverse Grip Lat Pull Down (Underhand)",
+        "muscle": "lats"
+    },
+    {
+        "name": "Close Grip Chin Up",
+        "muscle": "lats"
+    },
+    {
+        "name": "Superman",
+        "muscle": "lower-back"
+    },
+    {
+        "name": "Rollover Into V-Sits",
+        "muscle": "lower-back"
+    },
+    {
+        "name": "90/90 Hip Crossover",
+        "muscle": "lower-back"
+    },
+    {
+        "name": "Dumbbell Deadlift",
+        "muscle": "lower-back"
+    },
+    {
+        "name": "Smith Machine Deadlift",
+        "muscle": "lower-back"
+    },
+    {
+        "name": "High Inverted Row",
+        "muscle": "middle-back"
+    },
+    {
+        "name": "Machine Row",
+        "muscle": "middle-back"
+    },
+    {
+        "name": "Smith Machine One Arm Row",
+        "muscle": "middle-back"
+    },
+    {
+        "name": "Cable Palm Rotational Row",
+        "muscle": "middle-back"
+    },
+    {
+        "name": "Quadruped Extension Rotation",
+        "muscle": "middle-back"
+    },
+    {
+        "name": "Neck Tiger Tail",
+        "muscle": "neck"
+    },
+    {
+        "name": "Barbell Reverse Lunge",
+        "muscle": "quads"
+    },
+    {
+        "name": "Bodyweight Walking Lunge",
+        "muscle": "quads"
+    },
+    {
+        "name": "Deep Squat",
+        "muscle": "quads"
+    },
+    {
+        "name": "Barbell Step Ups",
+        "muscle": "quads"
+    },
+    {
+        "name": "Walking Barbell Lunge",
+        "muscle": "quads"
+    },
+    {
+        "name": "Dumbbell Upright Row",
+        "muscle": "shoulders"
+    },
+    {
+        "name": "Weight Plate Front Raise",
+        "muscle": "shoulders"
+    },
+    {
+        "name": "Seated Behind the Neck Shoulder Press",
+        "muscle": "shoulders"
+    },
+    {
+        "name": "Single Arm Cable Lateral Raise (Crossbody)",
+        "muscle": "shoulders"
+    },
+    {
+        "name": "Rear Delt Barbell Row To Neck",
+        "muscle": "shoulders"
+    },
+    {
+        "name": "Cable Shrug",
+        "muscle": "traps"
+    },
+    {
+        "name": "One Arm Dumbbell Upright Row",
+        "muscle": "traps"
+    },
+    {
+        "name": "Behind The Back Barbell Shrug",
+        "muscle": "traps"
+    },
+    {
+        "name": "Seated Dumbbell Shrug",
+        "muscle": "traps"
+    },
+    {
+        "name": "Gittleson Shrug",
+        "muscle": "traps"
+    },
+    {
+        "name": "One Arm Standing Dumbbell Extension",
+        "muscle": "triceps"
+    },
+    {
+        "name": "Weighted Bench Dips",
+        "muscle": "triceps"
+    },
+    {
+        "name": "Cable Tricep Extension With V-Bar",
+        "muscle": "triceps"
+    },
+    {
+        "name": "Alternate Lying Dumbbell Extension",
+        "muscle": "triceps"
+    },
+    {
+        "name": "Seated Low Pulley Overhead Tricep Extension",
+        "muscle": "triceps"
+    }
+]
